@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label FontSize="Medium" Grid.Row="2" TextColor="Black" Text="Id"/>
-            <Entry Grid.Row="2" Grid.Column="1" x:Name="Id"/>
+            <Entry Grid.Row="2" Grid.Column="1" x:Name="Id" Keyboard="Numeric"/>
             <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Descricao"/>
             <Entry  Grid.Column="1" Grid.Row="3" x:Name="Descricao"/>
             <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Categoria"/>

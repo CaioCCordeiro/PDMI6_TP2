@@ -21,7 +21,7 @@ namespace PDMI6_TP2
         {
             var produto = new Produto
             {
-                Id = Id.Text,
+                Id = int.Parse(Id.Text),
                 Descricao = Descricao.Text,
                 Categoria = Categoria.Text,
                 Quantidade = int.Parse(Quantidade.Text),

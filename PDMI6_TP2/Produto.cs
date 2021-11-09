@@ -6,7 +6,7 @@ namespace PDMI6_TP2
 {
     class Produto
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Descricao { get; set; }
         public string Categoria { get; set; }
         public int Quantidade { get; set; }
